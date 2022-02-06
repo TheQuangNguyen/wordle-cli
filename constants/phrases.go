@@ -11,6 +11,8 @@ After each guess, the color of the letters will change to show how close your gu
 `
 	NOT_ENOUGH_LETTERS = "Not enough letters. Please try again."
 	WORD_NOT_FOUND = "Word not found. Please try again."
+	WIN_MESSAGE = "Congratulations! You figured out today WORDLE."
+	LOSE_MESSAGE = "You can do it next time!"
 )
 
 func CorrectWordMsg(solution string) string {
